@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-journal text-graphite selection:bg-gfp selection:text-emerald-dark;
+  }
+}
+
+/* Custom Journal Styles */
+.journal-title {
+  @apply font-serif italic tracking-tight uppercase text-emerald;
+}
+
+.journal-paper {
+  @apply bg-white border border-gray-100 shadow-sm relative;
+  box-shadow: 0 10px 30px -10px rgba(13, 68, 53, 0.05);
+}
+
+.journal-paper::before {
+  content: '';
+  @apply absolute left-0 top-0 bottom-0 w-1 bg-emerald opacity-10;
+}
+
+.gfp-glow {
+  box-shadow: 0 0 20px rgba(0, 255, 149, 0.2);
+}
+
+.btn-primary {
+  @apply bg-emerald text-white px-6 py-2 transition-all hover:bg-emerald-dark hover:shadow-lg disabled:opacity-50;
+}
+
+.btn-gfp {
+  @apply bg-gfp text-emerald-dark font-bold px-6 py-2 transition-all hover:brightness-110 active:scale-95 shadow-sm;
+}

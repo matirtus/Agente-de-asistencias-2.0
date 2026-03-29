@@ -1,0 +1,76 @@
+{
+  "header": {
+    "vol": "VOL. 2.0 / EDICIÓN JOURNAL",
+    "role": "Investigador Senior"
+  },
+  "nav": {
+    "community": "Comunidad",
+    "notebook": "Cuaderno Lab",
+    "analytics": "Analíticas",
+    "exit": "Salir del Nodo"
+  },
+  "registry": {
+    "title": "Directorio de Investigadores",
+    "subtitle": "Una red global colaborativa para el avance de la biotecnología y el descubrimiento entre pares.",
+    "add_btn": "Añadir Perfil",
+    "form_fn": "Nombres",
+    "form_ln": "Apellidos",
+    "form_em": "C. Electrónico",
+    "form_sp": "Seleccionar Especialidad",
+    "form_submit": "CONFIRMAR EN REGISTRO",
+    "empty": "No hay investigadores registrados en este nodo. Sé el primero en unirte.",
+    "specialties": {
+      "medical": "Biotecnología Médica",
+      "agri": "Biotecnología Agrícola",
+      "industrial": "Biotecnología Industrial",
+      "marine": "Biotecnología Marina"
+    }
+  },
+  "notebook": {
+    "title": "Cuaderno Lab",
+    "subtitle": "Registros Electrónicos de Laboratorio / Alta Densidad",
+    "log_id": "IDENTIFICADOR LOG",
+    "verified": "NODO VERIFICADO",
+    "fig_caption": "FIG. 01 / CAPTURA DE MUESTRA HISTOLÓGICA",
+    "citations": "Citas",
+    "type": "Tipo",
+    "export": "EXPORTAR PAPER",
+    "exporting": "EXPORTANDO...",
+    "new_log": "NUEVO REGISTRO DE INVESTIGACIÓN",
+    "form": {
+      "title": "Título del Registro",
+      "type": "Tipo de Entrada",
+      "content": "Inicia tu investigación...",
+      "save": "GUARDAR EN JOURNAL",
+      "cancel": "DESCARTAR",
+      "image_hint": "Pega o sube una imagen"
+    },
+    "types": {
+      "empirical": "Registro Empírico",
+      "theoretical": "Registro Teórico",
+      "protocol": "Protocolo / Método"
+    },
+    "example_title": "Optimización de Cepa: GFP-Beta 12",
+    "example_content": "Observaciones iniciales en la cepa GFP-Beta 12 indican un aumento significativo en la intensidad bioluminiscente en condiciones de baja glucosa. El tiempo de duplicación se redujo de 45m a 22m, lo cual fue inesperado según la literatura previa (Sterling et al., 2024). Actualmente monitoreamos la carga metabólica."
+  },
+  "analytics": {
+    "title": "Métricas de Crecimiento",
+    "status_active": "Lote en tiempo real 003B",
+    "stats": {
+      "od": "OD600 Actual",
+      "doubling": "Tiempo Duplicación",
+      "status": "Estado",
+      "optimal": "Óptimo"
+    },
+    "note_title": "Nota de Journal",
+    "note_content": "El lote 003B muestra niveles de bioluminiscencia más altos en comparación con la línea base, posiblemente indicando sobreexpresión del gen reportero."
+  },
+  "sidebar": {
+    "simulation": "Simulación Científica",
+    "live": "Simulación en Vivo",
+    "streaming": "DATOS EN STREAMING",
+    "stats_title": "Estadísticas Actuales",
+    "global_samples": "Muestras Globales",
+    "active_papers": "Papers Activos"
+  }
+}
