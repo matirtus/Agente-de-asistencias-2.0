@@ -1,81 +1,17 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BiotecHub - Microbiología</title>
-    <meta name="description" content="Plataforma de estudio y gestión en microbiología">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <div class="background-overlay"></div>
-
-    <header class="glass-header">
-        <h1><a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;"
-                style="color: inherit; text-decoration: none;">🦠 BiotecHub</a></h1>
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#personal">Perfil</a>
-        </nav>
-    </header>
-
-    <main>
-        <section id="inicio" class="hero-section glass-panel">
-            <h2>Explora el Mundo Microbiano</h2>
-            <p>Una plataforma interactiva para el estudio y gestión de conocimientos en microbiología y biotecnología.
-                Sumérgete en el aprendizaje dinámico.</p>
-        </section>
-
-        <section id="personal" class="personal-section glass-panel">
-            <h2>Perfiles de Investigadores</h2>
-            <form id="profileForm" class="profile-form">
-                <div class="form-group">
-                    <label for="name">Nombre Completo</label>
-                    <input type="text" id="name" required placeholder="Dr. / Dra.">
-                </div>
-                <div class="form-group">
-                    <label for="role">Especialidad</label>
-                    <input type="text" id="role" required placeholder="Ej. Biología Molecular">
-                </div>
-                <div class="form-group">
-                    <label for="bio">Descripción / Biografía</label>
-                    <textarea id="bio" rows="4" placeholder="Háblanos de tu investigación..." required></textarea>
-                </div>
-                <button type="submit" class="primary-btn">Añadir Perfil</button>
-            </form>
-            <div id="profilesList" class="profiles-list"></div>
-        </section>
-
-        <section id="research" class="research-section glass-panel hidden">
-            <h2>🔬 Cuaderno de Investigación</h2>
-            <p class="subtitle">Redacta los detalles de tu estudio, registra un token y adjunta evidencia visual.</p>
-            <div class="research-form">
-                <input type="text" id="researchTitle" placeholder="Título o Token de la Investigación (Ej. TKN-842)">
-                <div id="researchContent" class="rich-textarea" contenteditable="true"
-                    data-placeholder="Describe tus hallazgos, metodologías o datos... Puedes PEGAR tus imágenes directamente aquí.">
-                </div>
-                <input type="text" id="researchContact"
-                    placeholder="Información de Contacto (Email, LinkedIn, Teléfono...)">
-
-                <div class="file-upload-wrapper">
-                    <label for="researchImage" class="secondary-btn file-btn">Adjuntar Imagen 📷</label>
-                    <input type="file" id="researchImage" accept="image/*" class="hidden-input">
-                    <span id="fileName" class="file-name">Ninguna imagen seleccionada</span>
-                </div>
-
-                <button id="addResearchBtn" class="primary-btn">Publicar Registro</button>
-            </div>
-
-            <div class="research-feed" id="researchFeed">
-                <!-- Research entries go here -->
-            </div>
-        </section>
-    </main>
-
-    <script src="script.js"></script>
-</body>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiotecHub v2.0 | Scientific Journal & ELN</title>
+    <!-- Google Fonts: Playfair Display (Serif), Outfit (Sans), JetBrains Mono (Mono) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Outfit:wght@100..900&family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-journal font-sans text-graphite antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

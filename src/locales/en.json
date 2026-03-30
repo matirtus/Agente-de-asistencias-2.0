@@ -1,0 +1,76 @@
+{
+  "header": {
+    "vol": "VOL. 2.0 / JOURNAL EDITION",
+    "role": "Senior Researcher"
+  },
+  "nav": {
+    "community": "Community",
+    "notebook": "Lab Notebook",
+    "analytics": "Analytics",
+    "exit": "Exit Node"
+  },
+  "registry": {
+    "title": "Researcher Directory",
+    "subtitle": "A collaborative global network for biotechnology advancement and peer discovery.",
+    "add_btn": "Add Profile",
+    "form_fn": "First Name",
+    "form_ln": "Last Name",
+    "form_em": "Email",
+    "form_sp": "Select Specialty",
+    "form_submit": "COMMIT TO REGISTRY",
+    "empty": "No researchers registered in this node. Be the first to join.",
+    "specialties": {
+      "medical": "Medical Biotech",
+      "agri": "Agricultural Biotech",
+      "industrial": "Industrial Biotech",
+      "marine": "Marine Biotech"
+    }
+  },
+  "notebook": {
+    "title": "Lab Notebook",
+    "subtitle": "Electronic Laboratory Records / High Density Logs",
+    "log_id": "LOG IDENTIFIER",
+    "verified": "VERIFIED NODE",
+    "fig_caption": "FIG. 01 / HISTOLOGICAL SAMPLE CAPTURE",
+    "citations": "Citations",
+    "type": "Type",
+    "export": "EXPORT PAPER",
+    "exporting": "EXPORTING...",
+    "new_log": "NEW RESEARCH LOG",
+    "form": {
+      "title": "Log Title",
+      "type": "Entry Type",
+      "content": "Begin your investigation...",
+      "save": "SAVE TO JOURNAL",
+      "cancel": "DISCARD",
+      "image_hint": "Paste or Upload figure"
+    },
+    "types": {
+      "empirical": "Empirical Log",
+      "theoretical": "Theoretical Log",
+      "protocol": "Protocol / Method"
+    },
+    "example_title": "Strain Optimization: GFP-Beta 12",
+    "example_content": "Initial observations in the GFP-Beta 12 strain indicate a significant increase in bioluminescent intensity under low-glucose conditions. The doubling time reduced from 45m to 22m, which was unexpected based on previous literature (Sterling et al., 2024). We are currently monitoring the metabolic load to ensure protein synthesis stability."
+  },
+  "analytics": {
+    "title": "Growth Metrics",
+    "status_active": "Real-time Batch 003B",
+    "stats": {
+      "od": "Current OD600",
+      "doubling": "Doubling Time",
+      "status": "Status",
+      "optimal": "Optimal"
+    },
+    "note_title": "Journal Note",
+    "note_content": "Batch 003B shows higher bioluminescence levels compared to baseline, possibly indicating over-expression of the reporter gene."
+  },
+  "sidebar": {
+    "simulation": "Scientific Simulation",
+    "live": "Live Simulation",
+    "streaming": "STREAMING DATA",
+    "stats_title": "Current Stats",
+    "global_samples": "Global Samples",
+    "active_papers": "Active Papers"
+  }
+}
